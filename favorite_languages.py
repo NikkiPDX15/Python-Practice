@@ -73,3 +73,27 @@ for name, languages in favorite_languages.items():
 
 
 
+
+
+# Python standard library 
+# just import :)
+
+# if you're creating a dictionary and want to keep track of the 
+# order in which key-value pair are added
+# use this class 
+
+from collections import OrderedDict
+
+favorite_languages = OrderedDict()
+
+favorite_languages['jen'] = 'python'
+favorite_languages['nikki'] = 'r studio'
+favorite_languages['paul'] = 'ruby'
+
+for name, language in favorite_languages.items():
+	print(name.title() + "'s favorite language is " + 
+		language.title()+ ".")
+													
+													
+
+
